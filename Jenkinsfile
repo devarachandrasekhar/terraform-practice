@@ -37,7 +37,7 @@ pipeline {
                pwd
                ls -ltr
         
-               terraform apply -auto-approve
+               terraform destroy -auto-approve
             '''     
         }
       }
